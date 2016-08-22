@@ -148,6 +148,15 @@ textarea {
 .research-lg .form-control {
   background-color: black;
   color: white;
+
+}
+
+.agence{
+  margin-left: 20%;
+  display: flex;
+  justify-content: center, space-around;
+}
+
 }
 
 /* ##################################################################### */
