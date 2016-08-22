@@ -157,6 +157,11 @@ textarea {
   justify-content: center, space-around;
 }
 
+.img-vl-lg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items:  stretch;
 }
 
 /* ##################################################################### */
