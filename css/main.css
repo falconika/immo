@@ -104,6 +104,7 @@ textarea {
 
 .section-white {
    padding: 10px 0;
+
 }
 
 .section-white {
@@ -131,51 +132,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#footer{
+  background-color: #B0C4DE;
+}
 /*boutton modifié*/
 .btn-sample {
   color: #FFFFFF;
   background-color: #000000;
   border-color: #000000;
 }
-
-.btn-sample:hover,
-.btn-sample:focus,
-.btn-sample:active,
-.btn-sample.active,
-.open .dropdown-toggle.btn-sample {
-  color: #FFFFFF;
-  background-color: #000000;
-  border-color: #000000;
+.research-lg{
+  display: flex;
+  direction: ltr;
 }
-
-.btn-sample:active,
-.btn-sample.active,
-.open .dropdown-toggle.btn-sample {
-  background-image: none;
-}
-
-.btn-sample.disabled,
-.btn-sample[disabled],
-fieldset[disabled] .btn-sample,
-.btn-sample.disabled:hover,
-.btn-sample[disabled]:hover,
-fieldset[disabled] .btn-sample:hover,
-.btn-sample.disabled:focus,
-.btn-sample[disabled]:focus,
-fieldset[disabled] .btn-sample:focus,
-.btn-sample.disabled:active,
-.btn-sample[disabled]:active,
-fieldset[disabled] .btn-sample:active,
-.btn-sample.disabled.active,
-.btn-sample[disabled].active,
-fieldset[disabled] .btn-sample.active {
-  background-color: #000000;
-  border-color: #000000;
-}
-
-.btn-sample .badge {
-  color: #000000;
-  background-color: #FFFFFF;
+.research-lg .form-control {
+  background-color: black;
+  color: white;
 }
 
 /* ##################################################################### */
