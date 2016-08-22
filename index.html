@@ -88,9 +88,27 @@
           </div>
         </section>
             <div class="container">
-                <form class="research-lg" action="index.html" method="post">
+                <div class="row">
+                    <form class="research-lg" action="index.html" method="post">
                         <!-- transaction type ville budget -->
-                </form>
+                        <select class="form-control">
+                          <option>Acheter</option>
+                          <option>Louer</option>
+                        </select>
+                        <select class="form-control form-reverse">
+                          <option>Villa</option>
+                          <option>Maison</option>
+                          <option>Appartement</option>
+                        </select>
+                        <select class="form-control">
+                            <option>Lille</option>
+                            <option>Roubaix</option>
+                            <option>Tourcoing</option>
+                        </select>
+                    </form>
+                </div>
+                <input class="btn-sample center-block" type="submit" value="RECHERCHER">
+
             </div>
                 <section class="agence">
                     <figure>
@@ -104,12 +122,11 @@
 
         <footer>
             <!-- inspiré de http://bootsnipp.com/snippets/featured/tall-footer-with-gradient-image -->
-            <hr>
             <div id="footer">
                 <div class="container">
                     <div class="row">
                         <h3 class="footertext">Suivez nous sur</h3>
-                        <br>
+                        <hr>
                           <div class="col-md-4">
                             <center>
                               <img src="http://i62.tinypic.com/1j12bk.jpg" width="23%" class="img-circle" alt="the-brains">
