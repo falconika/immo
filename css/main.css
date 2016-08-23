@@ -163,6 +163,10 @@ textarea {
   justify-content:space-around;
   align-items:  stretch;
 }
+/*Bouton appeler*/
+.info-appeler{
+  margin: 2em;
+}
 
 /* ##################################################################### */
 /* ##########################   SMARTPHONE   ########################### */
